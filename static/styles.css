@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(244, 244, 244);
+    color:  black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', Arial, Helvetica, 'Arial Narrow', sans-serif;
+}
+main{
+    padding: 35px;
+}
+
+h1{
+    font-size:60px
+}
+
+p{
+    margin-top: 35px;
+    padding-top: 0px;
+    font-size: 70px;
+}
+
+h5{
+    margin-top: 25px;
+    padding-top: 10px;
+    font-size: 50px;
+    font-family:  Helvetica, Arial, sans-serif
+}
+
+h6{
+    margin-top: 1px;
+}
+
+#img{
+    height: 105px;
+    width: auto
+}
+
+  /* input form styles */
+#input-form{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica,'Franklin Gothic Medium', sans-serif;
+}
+
+#input-field{
+    text-align: center;
+    font-size: 30px;
+    height: 40px;
+    width: 300px;
+    background-color: rgba(240, 240, 240, 0.77);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:.5px, solid, rgb(173, 170, 170)
+}
+
+#input-button{
+    height: 55px;
+    width: 150px;
+    border: none;
+    background-color: rgb(235, 235, 248);
+    border-radius: 5px;
+    margin: 0px;
+    font-size: 15px
+}
+
+
+
+/* TEMP */
+#temp-card{
+    background-color: rgb(247, 241, 238);
+    margin-left: 25%;
+    margin-right:25%;
+    height:350px;
+    border-radius: 15px;
+}
+#temp{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: antiquewhite;
+    border-top-left-radius: 15px;
+}
+
+
+/* UVI */
+#uvindex-card{
+    background-color: rgb(247, 238, 243);
+    margin-left: 25%;
+    margin-right:25%;
+    height:350px;
+    border-radius: 15px;
+}
+#uvi{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(252, 229, 242);
+    border-top-left-radius: 15px;
+}
+
+
+/* FORCAST */
+#forcast-card{
+    background-color: rgb(238, 245, 247);    
+    margin-left: 25%;
+    margin-right:25%;
+    height:350px;
+    border-radius: 15px;
+}
+
+#forcast{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(220, 243, 250);
+    border-top-left-radius: 15px;
+}
+
+
+/* HUMIDITY */
+#humidity-card{
+    background-color: rgb(238, 247, 242);
+    margin-left: 25%;
+    margin-right:25%;
+    height:350px;
+    border-radius: 15px;
+}
+
+#humidity{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(215, 247, 229);
+    border-top-left-radius: 15px;
+}

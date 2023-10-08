@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script src="./secrets.js"defer></script>
+    <script src="./main.js"defer></script>
+    <link rel="stylesheet" href="./static/styles.css">
+</head>
+<body>
+    <Main>
+        <form action="" id="input-form">
+            <label for="location">INPUT CITY</label><br><br>
+            <h6>Example Input: Seattle</h6>
+            <input title = 'City' type="text" name="location" id="input-field"><br><br>
+            <input type="submit" value="GET WEATHER" id="input-button">
+        </form>
+    </Main>
+    <h1 id="city"></h1>
+    <div id="temp-card">
+        <h2 id="temp">TEMPRETURE</h2>
+        <img id="img" src="./Images/temp.png" alt="temp">
+        <p id="temp-num"></p>
+    </div>
+    <div id="forcast-card">
+        <h2 id="forcast">FORCAST</h2>
+        <img id="img" src="./Images/weather.png" alt="weather">
+        <h5 id="forcast-n"></h5>
+    </div>
+     <div id="humidity-card">
+        <h2 id="humidity">HUMIDITY</h2>
+        <img id="img" src="./Images/humid.png" alt="humidity">
+        <p id="humid-num"></p>
+    </div>
+    <div id="uvindex-card">
+        <h2 id="uvi">UVI</h2>
+        <img id="img" src="./Images/UV rays.png" alt="rays">
+        <p id="uv"></p>
+    </div>
+
+</body>
+</html>
