@@ -73,8 +73,6 @@ function addToPage(weather, selectedCity){
     const uVI = document.querySelector('#uv')
     uVI.innerText = weather.UVIndex
 }
-
-
     
     
 function imgAdapter(weather){
@@ -84,5 +82,7 @@ function imgAdapter(weather){
         forecastImg.innerHTML = '<img id="forecastimg" src="./Images/cloudy.png" alt=""></img>'
     }else if(weather.imgData.toString() === 'Snow'){
         forecastImg.innerHTML = '<img id="forecastimg" src="./Images/snow.png" alt=""></img>'
+    }else if(weather.imgData.toString() === 'Rain'){
+        forecastImg.innerHTML = '<img id="forecastimg" src="./Images/rain.png" alt=""></img>'
     }
 }
