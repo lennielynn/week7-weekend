@@ -98,7 +98,7 @@ h6{
 
 
 /* FORCAST */
-#forcast-card{
+#forecast-card{
     background-color: rgb(238, 245, 247);    
     margin-left: 25%;
     margin-right:25%;
@@ -106,12 +106,17 @@ h6{
     border-radius: 15px;
 }
 
-#forcast{
+#forecast{
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: rgb(220, 243, 250);
     border-top-left-radius: 15px;
 }
+#forecastimg{
+    height: 105px;
+    width: auto
+}
+
 
 
 /* HUMIDITY */
