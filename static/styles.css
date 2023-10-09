@@ -14,6 +14,7 @@ h1{
 
 p{
     margin-top: 35px;
+    margin-bottom: 25px;
     padding-top: 0px;
     font-size: 70px;
 }
@@ -70,7 +71,7 @@ h6{
     background-color: rgb(247, 241, 238);
     margin-left: 25%;
     margin-right:25%;
-    height:350px;
+    height:450px;
     border-radius: 15px;
 }
 #temp{
@@ -80,6 +81,10 @@ h6{
     border-top-left-radius: 15px;
 }
 
+#feels-like {
+    margin-top: 10px;
+    font-size: 30px;
+}
 
 /* UVI */
 #uvindex-card{

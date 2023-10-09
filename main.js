@@ -66,6 +66,8 @@ function addToPage(weather, selectedCity){
     city.innerText = titleCase(selectedCity) + ':'
     const temp = document.querySelector('#temp-num')
     temp.innerText = weather.tempreture + 'º'
+    const feel = document.querySelector('#feels-like')
+    feel.innerText = 'Feels Like' + ' ' + weather.feelsLike + 'º'
     const forecast = document.querySelector('#forecast-n')
     forecast.innerText = weather.forecast
     const humidity = document.querySelector('#humid-num')
